@@ -1,3 +1,42 @@
+# ADSP
+vendor/bin/adsprpcd
+vendor/lib64/libadsprpc.so
+vendor/lib/libadsp_hvx_callback_skel.so
+vendor/lib/libadsp_hvx_stub.so
+vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libfastcvadsp_stub.so
+vendor/lib64/libfastcvopt.so
+vendor/lib/libadsprpc.so
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libfastcvadsp_stub.so
+vendor/lib/libfastcvopt.so
+
+# ADSP modules
+vendor/lib/rfsa/adsp/dirac_resource.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libadsp_fd_skel.so
+vendor/lib/rfsa/adsp/libdirac-capiv2.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libexternal_dog_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libhvxMathVIO.so
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libvpp_frc.so
+vendor/lib/rfsa/adsp/libvpp_svc_skel.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
+vendor/lib/rfsa/adsp/dirac_resource.dar
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
+vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so
+vendor/lib/rfsa/adsp/libadsp_hvx_skel.so
+vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib/rfsa/adsp/chiron-s/dirac_resource.dar
+
 # Audio ACDB
 vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb
 vendor/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb
@@ -119,6 +158,7 @@ etc/camera/chiron_ov5675_primax_chromatix.xml
 etc/camera/chiron_ov5675_qtech_chromatix.xml
 
 # Camera eeproms
+vendor/lib/libSonyIMX386PdafLibrary.so
 vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so
 vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so
 vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so
@@ -128,8 +168,8 @@ vendor/lib/libmmcamera_chiron_imx386_semco.so
 vendor/lib/libmmcamera_chiron_ov5675_primax.so
 vendor/lib/libmmcamera_chiron_ov5675_qtech.so
 
-# Display calibration
-etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml
+# Display calibration data
+etc/jdi_fhd_video_dsi_panel_ct.xml
 
 # Fingerprint
 vendor/lib64/com.fingerprints.extension@1.0.so
