@@ -35,3 +35,6 @@ PRODUCT_COPY_FILES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/chiron/chiron-vendor.mk)
+
+# Setup Dalvik VM config.
+$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-4096-dalvik-heap.mk)
