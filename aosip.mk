@@ -1,6 +1,7 @@
 $(call inherit-product, device/xiaomi/chiron/full_chiron.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-PRODUCT_NAME := chiron
+PRODUCT_NAME := aosip_chiron
 PRODUCT_DEVICE := chiron
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2
